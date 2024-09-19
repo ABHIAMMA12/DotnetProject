@@ -12,6 +12,7 @@ namespace E_Commerce_Udemy_Practice.Database
         }
         public DbSet<Product> Products { get; set; }
 
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
